@@ -1,0 +1,23 @@
+{
+  "name": "ms_chrome-extension_draco_tep_mumbai_2020_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Mumbai_2020_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Mumbai_2020_2/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Mumbai_2020_2#readme",
+  "dependencies": {
+    "@types/chrome": "0.0.122",
+    "types": "^0.1.1"
+  }
+}

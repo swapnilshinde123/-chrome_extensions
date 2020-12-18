@@ -1,0 +1,157 @@
+#swap{
+    height: 2000px;
+    width: 300px;
+    
+    background-color: white;
+    margin-left: -10px;
+    font-size: 40px;
+    vertical-align: text-top;
+    text-align: center;
+    margin-top: 90px;
+   
+}
+#swap2{
+    height: 100%;
+    width: 300px;
+    border-color: black;
+    background-color:black;
+    margin-left: -10px;
+    color: white;
+  
+    font-size: 15px;
+    vertical-align: text-top;
+    text-align: center;
+  
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/09/14/11/virus-4915861_960_720.png");
+     background-repeat: no-repeat;
+     background-size: 300px 210px;
+     position: fixed;
+    
+}
+#corona{
+  margin-top: 240px;
+}
+#swap1{
+    height: 100%;
+    width:1040px;
+   border-color: black;
+    background-color:white;
+    font-size: 40px;
+    vertical-align: text-top;
+    text-align: center;
+    margin-left: 300px;
+    float: left;
+    margin-top: -2000px;
+    
+
+}
+
+h1{
+    position: fixed;
+    font-size: 40px;
+   left: 30px;
+}
+
+.card-holder {
+    margin: 2em 0;
+  }
+  
+  .card {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    height:60px;
+    width: 1400px;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    margin-top: -100px;
+    margin-left: -10px;
+    
+  }
+  
+  .card .subtle {
+    color: #000;
+    font-size: 0.5em;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+  
+  .card i {
+    font-size: 3em;
+  }
+  .bg-news {
+    background: -webkit-linear-gradient(70deg,red 40%,blue  40%);
+    background: -o-linear-gradient(70deg,red 40%,blue 40%);
+    background: -moz-linear-gradient(70deg, red 40%,blue 40%);
+    background: linear-gradient(70deg, red 40%, blue 40%);
+  }
+  #h1{
+      margin-left: 180px;
+      margin-top: -7px;
+      color: blue;
+      font-size: 50px;
+      animation:blinkingText 2s infinite;
+      font-family: 'Red Rose', cursive;
+      text-shadow:3px 3px gray ;
+      
+  }
+  #h2{
+      margin-left: 580px;
+      margin-top: -7px;
+      color: thistle;
+      font-size: 50px;
+      animation:blinkingText1 2s infinite;
+      font-family: 'Red Rose', cursive;
+      text-shadow:3px 3px gray ;
+  
+}
+#h3{
+  margin-left: 775px;
+  margin-top: -57px;
+  color:white;
+  font-size: 23px;
+  font-weight:unset;
+
+}
+
+
+@keyframes blinkingText{
+    0%{     color:black;    }
+    30%{color:black;}
+    49%{    color: whitesmoke; }
+    55%{color:whitesmoke;}
+    60%{color:blue;}
+
+    70%{    color: blue;}
+    80%{    color:white;}
+    99%{    color:pink;  }
+    100%{   color: gray;    }
+}
+@keyframes blinkingText1{
+    0%{     color:black;    }
+    30%{color:black;}
+    49%{    color: whitesmoke; }
+    55%{color:whitesmoke;}
+    60%{color:red;}
+    70%{    color:red;}
+    80%{    color:white;}
+    99%{    color:pink;  }
+    100%{   color: gray;    }
+}
+
+a{
+  color: royalblue;
+}
+a:visited{
+  color: black;
+}
+a:visited, a:link {text-decoration: none;}
+a:hover, a:active {text-decoration: underline;
+  color: blueviolet;
+
+}
